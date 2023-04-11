@@ -1,0 +1,62 @@
+body{
+    background-color: black
+    font-family: sans-serif
+    margin: 0;
+    max-width: 1200px;
+}
+
+
+
+header{
+    max-width: 1200px;
+    background-color: #fff;
+}
+
+main, footer{
+max-width: 1200px;
+margin: auto;
+padding: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 20pt;
+}
+
+section.Tasti a{
+    text-decoration: none;
+    color: black;
+}
+
+section.Tasti a:hover{
+        color: #db9646;
+        text-decoration: underline;
+    }
+
+section.Introduzione {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+section.Introduzione img{
+max-width: auto;
+max-height: 480px;
+padding-left: 700px;
+}
+
+section.Introduzione p{
+    max-width: 500px;
+}
+
+section.Introduzione p, img{
+padding-top: 20px;
+}
+
+footer{
+
+}
