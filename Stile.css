@@ -135,31 +135,12 @@ h2{
 
 .foot{
     display: flex;
-
- justify-items: center;
- align-items: center;
+ text-align: center;
+ align-items: baseline;
   border-top-style: solid;
   border-top-color: black;
   border-top-width: 1px;
   
-}
-.foot > div {
-    background-color: #ffffff;
-    
-    text-align: center;
-
-    padding: 20px;
-  }
-
-.card_footer{ 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer{
-max-width: 1200px;
-margin: auto;
 }
 
 h4 {
